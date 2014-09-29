@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Popular Matchings.exe" version="1.0.0.11" publicKeyToken="62c367629285bbfa" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Popular Matchings" version="1.0.0.0" publicKeyToken="62C367629285BBFA" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Popular Matchings.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gurobi56.NET.dll" size="90112">
+      <assemblyIdentity name="Gurobi56.NET" version="5.6.3.0" publicKeyToken="21E2C4B1860157BC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tl22lqbA67zoa9K+q9c3iHG9ag2tqXwwNusTCUlRRbM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Popular Matchings.exe" size="51200">
+      <assemblyIdentity name="Popular Matchings" version="1.0.0.0" publicKeyToken="62C367629285BBFA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8oZE0KgQmMVFONhnMNg45/+SoOeqmw5YT5irYFwVylo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Popular Matchings.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OLIVERLAP\Oliver" issuerKeyHash="eaabf93edc41fac3e4a96e56501c6d2846dc7ac1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6xPoEinFRW/sk2kNGhd9BbqVuOtomJfZnQD2sHKLXcc=</DigestValue></Reference></SignedInfo><SignatureValue>FcbkjKorCuwt+vo8Vp3aGV5idAbInd9rcBkLN1hwC/K+BU3mL9i/k8qUxxXUBpQbvaDpP8Tuio9lC+S3/K5IGHLEKtJQnON+69H3wdyXI3sKcsU5GwA8q4EOAlp4GctsrvhuOesnCTXqQoZx4aGM/vNFgOWw270ClBvaSigrdtM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4cbrewyUjVixv6VAosdHBF3jNE4+hFlVqXfkMc0g9sqADhv7TVcCH3OoQS6jb/E3kUCBhKHlCXJfkA3vkLFKY+IFrXFwrpG5i1fU2RPAj3c0G7letGHJjpRih12h6SXpjRGw9VECnaGP6hAc+zYly7YGiwmpQkvg5n94bE4EgI0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c75d8b72b0f6009dd9979868ebb895ba057d171a0d6993ec6f45c52912e813eb" Description="" Url=""><as:assemblyIdentity name="Popular Matchings.exe" version="1.0.0.11" publicKeyToken="62c367629285bbfa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OLIVERLAP\Oliver</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K4fUKjMLT1SmJXZiP2p3b/+pC+TkaL2MHxyaXkctIA0=</DigestValue></Reference></SignedInfo><SignatureValue>mNNjUP3cg9i4NEzb3GJIcui9aVjgQGiHmzXS+33VMCGPMroFK9ezS8htQQPLPj5Kaiyd76RFeUn31rlAK4hK5au9SAa//bYUOGJXSg/a+aKHGx3qh6f4jukeJwXf3c5EG6hBL0a18RR9ZDd6haGqCqzMlftgMLlZOSyLpqIm8sQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4cbrewyUjVixv6VAosdHBF3jNE4+hFlVqXfkMc0g9sqADhv7TVcCH3OoQS6jb/E3kUCBhKHlCXJfkA3vkLFKY+IFrXFwrpG5i1fU2RPAj3c0G7letGHJjpRih12h6SXpjRGw9VECnaGP6hAc+zYly7YGiwmpQkvg5n94bE4EgI0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQGZaVsvvs8qxE6WXmXGuxHzANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATwBMAEkAVgBFAFIATABBAFAAXABPAGwAaQB2AGUAcjAeFw0xNDA5MjkyMDUwMTNaFw0xNTA5MzAwMjUwMTNaMCsxKTAnBgNVBAMeIABPAEwASQBWAEUAUgBMAEEAUABcAE8AbABpAHYAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhxut7DJSNWLG/pUCix0cEXeM0Tj6EWVWpd+QxzSD2yoAOG/tNVwIfc6hBLqNv8TeRQIGEoeUJcl+QDe+QsUpj4gWtcXCukbmLV9TZE8CPdzQbuV60YcmOlGKHXaHpJemNEbD1UQKdoY/qEBz7NiXLtgaLCalCS+Dmf3hsTgSAjQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAG5L1nm2EMGpnXOYBeuHKCddpJUpxOFz7b7TUTlvFE06IpVFf9Q4gEpjU90SVJGBuCcVxE7csxOQv+4rzKY0SvN+EiDrO0SvjVZONhrzp/41URBfU8mPm81lUOWxFUHY1kFOa1TcX51CXqDLOJiKnfjtFS6L8Uh6nQSwNpK6sK7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
